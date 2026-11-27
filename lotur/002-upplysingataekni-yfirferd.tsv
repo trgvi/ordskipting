@@ -1,0 +1,151 @@
+lína	orð	vél	flokkar	athugasemd
+2	eftirlegubúnaður	eft-ir-legu-bún-aður	NÝTT,SAMHLJÓÐA	
+3	vírusvarnarforrit	vír-u-s-varn-ar-for-rit	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+4	fyrirmælasvik	fyr-ir-mæla-svik	NÝTT,SAMHLJÓÐA	
+5	upphafsauðkenni	upp-hafs-auð-kenni	NÝTT,SAMHLJÓÐA	
+6	upprunafölsun	upp-runa-fölsun	NÝTT,SAMHLJÓÐA	
+7	atvikameðhöndlun	at-vika-með-höndlun	NÝTT,SAMHLJÓÐA	
+8	innsláttarskráning	inn-slátt-ar-skrán-ing	NÝTT,SAMHLJÓÐA	
+9	innsláttarstuldur	inn-slátt-ar-stuldur	NÝTT,SAMHLJÓÐA	
+10	innskráningartilraunir	inn-skrán-ing-ar-til-raunir	NÝTT,SAMHLJÓÐA	
+11	innskráningargabb	inn-skrán-ing-ar-gabb	NÝTT,SAMHLJÓÐA	
+12	milligönguárás	milli-göngu-á-rás	NÝTT,SAMHLJÓÐA	
+13	aðstæðugreind	að-stæðu-greind	NÝTT,SAMHLJÓÐA	
+14	umritunarnet	um-rit-un-ar-net	NÝTT,SAMHLJÓÐA	
+15	raðreitatækni	rað-reita-tækni	NÝTT,SAMHLJÓÐA	
+16	gervigreindarlíkan	gervi-greind-ar-líkan	NÝTT,SAMHLJÓÐA	
+17	gervigreindarkerfi	gervi-greind-ar-kerfi	NÝTT,SAMHLJÓÐA	
+18	skammtavélnám	skammta-vél-nám	NÝTT,SAMHLJÓÐA	
+19	púlsatauganet	púlsa-tauga-net	NÝTT,SAMHLJÓÐA	
+20	aðfangakeðju	að-fanga-keðju	NÝTT,SAMHLJÓÐA	
+21	orðinnfelling	orð-inn-fell-ing	NÝTT,SAMHLJÓÐA	
+22	heimildarstaðfesting	heim-ild-ar-stað-fest-ing	NÝTT,SAMHLJÓÐA	
+23	mótherjaárás	mót-herj-a-árás	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki; tillagan skiptir þar sem vélin gerir það ekki
+24	þrautleitarárás	þraut-leitar-árás	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+25	vinnupóstsvik	vinnu-póst-svik	NÝTT,SAMHLJÓÐA	
+26	netsiðareglur	net-siða-reglur	NÝTT,SAMHLJÓÐA	
+27	hakkari	hakk-ari	NÝTT,SAMHLJÓÐA	
+28	veikleikamat	veik-leika-mat	NÝTT,SAMHLJÓÐA	
+29	nýveiluárás	ný-veilu-á-rás	NÝTT,SAMHLJÓÐA	
+30	nýveilubragð	ný-veilu-bragð	NÝTT,SAMHLJÓÐA	
+31	nýveiluógn	ný-veilu-ógn	NÝTT,SAMHLJÓÐA	
+32	gagnasiðfræði	gagna-sið-fræði	NÝTT,SAMHLJÓÐA	
+33	varagagnagrunnur	vara-gagna-grunnur	NÝTT,SAMHLJÓÐA	
+34	skýjainnleiðingaráætlun	skýja-inn-leið-ing-ar-áætlun	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+35	skýjasérhæft	skýja-sér-hæft	NÝTT,SAMHLJÓÐA	
+36	samfélagsský	sam-fé-lags-ský	NÝTT,SAMHLJÓÐA	
+37	stjórnsýsluský	stjórn-sýslu-ský	NÝTT,SAMHLJÓÐA	
+38	innviðaáskrift	inn-v-iða-áskrift	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki; tillagan skiptir þar sem vélin gerir það ekki
+39	innviðaþjónusta	inn-viða-þjón-usta	NÝTT,SAMHLJÓÐA	
+40	málskipunartré	mál-skip-un-ar-tré	NÝTT,SAMHLJÓÐA	
+41	samþykkisprófun	sam-þykk-is-prófun	NÝTT,SAMHLJÓÐA	
+42	viðtökuprófun	við-töku-prófun	NÝTT,SAMHLJÓÐA	
+43	aðgangsveiting	að-gangs-veit-ing	NÝTT,SAMHLJÓÐA	
+44	veffangastika	veffanga-stika	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+45	samþættari	sam-þætt-ari	NÝTT,SAMHLJÓÐA	
+46	reikniritunarmál	reikni-rit-un-ar-mál	NÝTT,SAMHLJÓÐA	
+47	bókstafakóði	bók-stafa-kóði	NÝTT,SAMHLJÓÐA	
+48	ritstafakóði	rit-stafa-kóði	NÝTT,SAMHLJÓÐA	
+49	aðstæðutölvun	að-stæðu-tölvun	NÝTT,SAMHLJÓÐA	
+50	tvíundakóðuð	tví-unda-kóðuð	NÝTT,SAMHLJÓÐA	
+51	tvíundakóðað	tví-unda-kóðað	NÝTT,SAMHLJÓÐA	
+52	lífauðkenning	lífauð-kenn-ing	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+53	tvífimmundakóði	tvífimm-unda-kóði	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+54	ræsingarinnskráning	ræs-ing-ar-inn-skrán-ing	NÝTT,SAMHLJÓÐA	
+55	smellihlutfall	smelli-hlut-fall	NÝTT,SAMHLJÓÐA	
+56	kóðarofstaður	kóða-rof-staður	NÝTT,SAMHLJÓÐA	
+57	kóðaskiptastafur	kóða-skipta-stafur	NÝTT,SAMHLJÓÐA	
+58	kóðari	kóð-ari	NÝTT,SAMHLJÓÐA	
+59	samstarfsbóti	sam-starfs-bóti	NÝTT,SAMHLJÓÐA	
+60	fjölvalsreitur	fjöl-vals-reitur	NÝTT,SAMHLJÓÐA	
+61	fjölvalsfellilisti	fjöl-vals-felli-listi	NÝTT,SAMHLJÓÐA	
+62	yfirtökumiðlari	yf-ir-töku-miðl-ari	NÝTT,SAMHLJÓÐA	
+63	stýrireiknirit	stýri-reikni-rit	NÝTT,SAMHLJÓÐA	
+64	flæðisreiknirit	flæð-is-reikni-rit	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+65	réttleikaeigind	rétt-leika-eig-ind	NÝTT,SAMHLJÓÐA	
+66	dulmálsgjaldmiðill	dul-máls-gjald-mið-ill	NÝTT,SAMHLJÓÐA	
+67	líftímavirði	líf-tíma-virði	NÝTT,SAMHLJÓÐA	
+68	skilgreiningaforritun	skil-grein-inga-for-ritun	NÝTT,SAMHLJÓÐA	
+69	afkóðari	af-kóð-ari	NÝTT,SAMHLJÓÐA	
+70	afkóðunareining	af-kóð-un-ar-ein-ing	NÝTT,SAMHLJÓÐA	
+71	skynjunarreiknirit	skynj-un-ar-reikni-rit	NÝTT,SAMHLJÓÐA	
+72	skynjunarrökvísi	skynj-un-ar-rök-vísi	NÝTT,SAMHLJÓÐA	
+73	lénsheitakerfi	léns-heita-kerfi	NÝTT,SAMHLJÓÐA	
+74	sérsviðsmál	sér-sviðs-mál	NÝTT,SAMHLJÓÐA	
+75	punktakóðalesari	punkta-kóða-les-ari	NÝTT,SAMHLJÓÐA	
+76	punktakóðaskrifari	punkta-kóða-skrif-ari	NÝTT,SAMHLJÓÐA	
+77	fellivalmynd	felli-val-mynd	NÝTT,SAMHLJÓÐA	
+78	hlaupakommuaðgerð	hlaupa-kommu-að-gerð	NÝTT,SAMHLJÓÐA	
+79	algildisstöfun	al-gild-is-stöfun	NÝTT,SAMHLJÓÐA	
+80	hlutanetsreiki	hluta-nets-reiki	NÝTT,SAMHLJÓÐA	
+81	gíslatökubúnaður	gísla-töku-bún-aður	NÝTT,SAMHLJÓÐA	
+82	merkingarsamhæfing	merk-ing-ar-sam-hæf-ing	NÝTT,SAMHLJÓÐA	
+83	upplýsingatekja	upp-lýs-inga-tekja	NÝTT,SAMHLJÓÐA	
+84	málskipunargreinir	mál-skip-un-ar-greinir	NÝTT,SAMHLJÓÐA	
+85	tagskilgreining	tag-skil-grein-ing	NÝTT,SAMHLJÓÐA	
+86	sýndarþjónustuveita	sýnd-ar-þjón-ustu-veita	NÝTT,SAMHLJÓÐA	
+87	raddkóðari	radd-kóð-ari	NÝTT,SAMHLJÓÐA	
+88	vefleitarvél	vef-leit-ar-vél	NÝTT,SAMHLJÓÐA	
+89	netaðgangsstaður	net-að-gangs-staður	NÝTT,SAMHLJÓÐA	
+90	stjórnandaréttindi	stjórn-anda-rétt-indi	NÝTT,SAMHLJÓÐA	
+91	stjórnendasvik	stjórn-enda-svik	NÝTT,SAMHLJÓÐA	
+92	spillinets	spilli-nets	NÝTT,SAMHLJÓÐA	
+93	kerfisréttindi	kerf-is-rétt-indi	NÝTT,SAMHLJÓÐA	
+94	hýsitölva	hýsi-tölva	NÝTT,SAMHLJÓÐA	
+95	truflunarsending	trufl-un-ar-send-ing	NÝTT,SAMHLJÓÐA	
+96	álagsbeinir	álags-beinir	NÝTT,SAMHLJÓÐA	
+97	staðargreind	stað-ar-greind	NÝTT,SAMHLJÓÐA	
+98	grenndargreind	grennd-ar-greind	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+99	fráviksgreining	frá-viks-grein-ing	NÝTT,SAMHLJÓÐA	
+100	áhersluvirkni	áherslu-virkni	NÝTT,SAMHLJÓÐA	
+101	bálkakeðja	bálka-keðja	NÝTT,SAMHLJÓÐA	
+102	jaðargreind	jað-ar-greind	NÝTT,SAMHLJÓÐA	
+103	tilfinningagreinir	til-finn-inga-greinir	NÝTT,SAMHLJÓÐA	
+104	myndflokkun	mynd-flokkun	NÝTT,SAMHLJÓÐA	
+105	taugatölvun	tauga-tölvun	NÝTT,SAMHLJÓÐA	
+106	hlutskynjun	hlut-skynjun	NÝTT,SAMHLJÓÐA	
+107	röklíkan	rök-líkan	NÝTT,SAMHLJÓÐA	
+108	tillögukerfi	til-lögu-kerfi	NÝTT,SAMHLJÓÐA	
+109	púlsanet	púlsa-net	NÝTT,SAMHLJÓÐA	
+110	orðgreiping	orð-greip-ing	NÝTT,SAMHLJÓÐA	
+111	stjórnunarréttindi	stjórn-un-ar-rétt-indi	NÝTT,SAMHLJÓÐA	
+112	smellistuldur	smellistuldur	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+113	huliðsvefur	hul-iðs-vefur	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+114	gagnaleki	gagna-leki	NÝTT,SAMHLJÓÐA	
+115	gagnatap	gagna-tap	NÝTT,SAMHLJÓÐA	
+116	djúpfölsun	djúp-fölsun	NÝTT,SAMHLJÓÐA	
+117	álagsárás	álags-árás	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+118	réttindataka	rétt-inda-taka	NÝTT,SAMHLJÓÐA	
+119	veilubragð	veilu-bragð	NÝTT,SAMHLJÓÐA	
+120	bálkagögn	bálka-gögn	NÝTT,SAMHLJÓÐA	
+121	gagnahjúpun	gagna-hjúpun	NÝTT,SAMHLJÓÐA	
+122	skýjaáætlun	skýja-áætlun	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+123	skýjanotkun	skýja-notkun	NÝTT,SAMHLJÓÐA	
+124	blendingsský	blend-ings-ský	NÝTT,SAMHLJÓÐA	
+125	staðartölvun	stað-ar-tölvun	NÝTT,SAMHLJÓÐA	
+126	grenndartölvun	grennd-ar-tölvun	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+127	greiningarlíkan	grein-ing-ar-líkan	NÝTT,SAMHLJÓÐA	
+128	snjallforrit	snjall-for-rit	NÝTT,SAMHLJÓÐA	
+129	smalakóði	smala-kóði	NÝTT,SAMHLJÓÐA	
+130	kubbaforritun	kubba-for-ritun	NÝTT,SAMHLJÓÐA	
+131	bottanet	botta-net	NÝTT,SAMHLJÓÐA	
+132	bottaormur	botta-ormur	NÝTT,SAMHLJÓÐA	
+133	bætakóði	bæt-a-kóði	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+134	stoppbotti	stopp-botti	NÝTT,SAMHLJÓÐA	
+135	spjallbotti	spjall-botti	NÝTT,SAMHLJÓÐA	
+136	spjallmenni	spjall-menni	NÝTT,SAMHLJÓÐA	
+137	gátreitur	gátreitur	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+138	gátkóði	gát-kóði	NÝTT,SAMHLJÓÐA	
+139	klasaaðgerð	klasa-að-gerð	NÝTT,SAMHLJÓÐA	
+140	aðildaraðgerð	að-ild-ar-að-gerð	NÝTT,SAMHLJÓÐA	
+141	klasabreyta	klasa-breyta	NÝTT,SAMHLJÓÐA	
+142	aðildarbreyta	að-ild-ar-breyta	NÝTT,SAMHLJÓÐA	
+143	smellibeita	smelli-beita	NÝTT,SAMHLJÓÐA	
+144	kóðabreytir	kóða-breytir	NÝTT,SAMHLJÓÐA	
+145	kóðastak	kóðastak	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+146	kóðamengi	kóða-mengi	NÝTT,SAMHLJÓÐA	
+147	kóðasmiður	kóða-smiður	NÝTT,SAMHLJÓÐA	
+148	kóðabætir	kóða-bætir	NÝTT,SAMHLJÓÐA	
+149	kóðunarregla	kóð-un-ar-regla	NÝTT,SAMHLJÓÐA	
+150	félagsbóti	fé-lags-bóti	NÝTT,SAMHLJÓÐA	
+151	þýðandakóði	þýð-anda-kóði	NÝTT,SAMHLJÓÐA	
