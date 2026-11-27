@@ -60,3 +60,28 @@ clean:
 
 .PHONY: all build test yfirfara clean
 .SECONDARY:
+
+# ---- Tveggja þrepa orðskipting (samskeyti fyrst, svo skipting innan orðhluta) ----
+# make build2  byggir smidi/hyph_is_IS-2.dic; orð sem víkja frá gulli fá „engin samskeyti“ í þrepi 1
+$(B)/samskeyti.txt: gogn/thjalfun.txt tools/samskeyti.py | $(B)
+	$(PY) tools/samskeyti.py gogn/thjalfun.txt gogn/thjalfun.txt $@ 4
+
+$(B)/samskeyti.tex: $(B)/samskeyti.latin1
+	cd $(B) && patgen samskeyti.latin1 ../gogn/patgen/empty.pat samskeyti.tex ../gogn/patgen/translate.tr < ../gogn/tvo-threp/stillingar-threp1.txt > samskeyti.log 2>&1
+	! grep -q capacity $(B)/samskeyti.log || (echo "VILLA: patgen fór yfir getu"; exit 1)
+
+$(B)/samskeyti.latin1: $(B)/samskeyti.txt
+	iconv -f utf-8 -t latin1 $< > $@
+
+$(B)/hyph_is_IS-2.dic: $(B)/samskeyti.tex $(B)/hyph_is_IS.dic $(B)/undantekningar.txt
+	$(PY) tools/engin_samskeyti.py $(B)/threp1-bann.txt $(B)/undantekningar.txt
+	cat gogn/tvo-threp/jadarbann.txt $(B)/threp1-bann.txt > $(B)/threp1-extra.txt
+	$(PY) tools/tvo_threp.py $(B)/samskeyti.tex $(B)/hyph_is_IS.dic $(B)/fyrsta.dic $(B)/threp1-extra.txt
+	$(PY) tools/fravik.py $(B)/fyrsta.dic $(B)/fravik.txt gogn/arnastofnun.txt gogn/thjalfun.txt
+	$(PY) tools/engin_samskeyti.py $(B)/threp1-bann.txt $(B)/undantekningar.txt $(B)/fravik.txt
+	cat gogn/tvo-threp/jadarbann.txt $(B)/threp1-bann.txt > $(B)/threp1-extra.txt
+	$(PY) tools/tvo_threp.py $(B)/samskeyti.tex $(B)/hyph_is_IS.dic $@ $(B)/threp1-extra.txt
+
+build2: $(B)/hyph_is_IS-2.dic
+	@$(PY) tools/prof.py $< gogn/arnastofnun.txt gogn/prof/textavillur.txt
+.PHONY: build2
