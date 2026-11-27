@@ -33,17 +33,19 @@ h1{font-size:clamp(34px,5vw,52px);line-height:1.05;margin:0 0 20px}
 h2{font-size:26px;line-height:1.15;margin:0 0 16px}
 .top{display:flex;justify-content:flex-end;padding-top:20px}
 .hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(32px,6vw,80px);padding-block:clamp(24px,5vw,64px) clamp(48px,8vw,96px);align-items:center}
-.lead{font-size:19px;color:var(--muted);max-width:34em;margin:0 0 28px;hyphens:manual}
-.meta{font:15px/1.5 "IBM Plex Sans","Helvetica Neue",sans-serif;color:var(--muted);margin:0 0 28px}
+.lead{font-size:17px;color:var(--ink);max-width:34em;margin:0 0 28px;hyphens:manual}
+.meta{font:12px/1.5 "IBM Plex Sans","Helvetica Neue",sans-serif;color:var(--muted);margin:0 0 28px}
 .btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:12px 22px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:500;border-radius:6px;transition:opacity .15s}
 .btn:hover{opacity:.85}.btn:focus-visible,a:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 .btn svg{width:18px;height:18px}
 .btns{display:flex;flex-wrap:wrap;gap:12px}
 .btn.out{background:none;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
 .btn.out:hover{opacity:1;background:var(--soft)}
-.frame{--fb:#5aa9ff;position:relative;width:270px;max-width:100%;border:1px solid var(--fb);padding:16px 18px 22px;font:500 29px/1.22 "IBM Plex Sans","Helvetica Neue",sans-serif;letter-spacing:-.015em;touch-action:none}
+@font-face{font-family:"Bespoke Serif";src:url(fonts/BespokeSerif-Variable.woff2) format("woff2");font-weight:300 800;font-display:swap}
+.frame{--fb:#5aa9ff;position:relative;width:300px;max-width:100%;border:1px solid var(--fb);padding:16px 18px 22px;font:400 24px/1.25 "Bespoke Serif",Georgia,serif;touch-action:none}
 :root.is-dark .frame{--fb:#7dbbff}
 .ftext{margin:0;hyphens:manual;-webkit-hyphens:manual;overflow-wrap:normal;word-break:normal}
+.ftext .ln{display:block;white-space:nowrap}.ftext .hy{color:var(--fb)}
 .hd{position:absolute;width:9px;height:9px;padding:0;background:var(--bg);border:1px solid var(--fb);border-radius:0}
 .tl{top:-5px;left:-5px}.tr{top:-5px;right:-5px}.bl{bottom:-5px;left:-5px}
 .br{bottom:-6px;right:-6px;width:12px;height:12px;background:var(--fb);cursor:ew-resize}
@@ -55,17 +57,17 @@ section{border-top:1px solid var(--line);padding-block:clamp(40px,6vw,64px)}
 .cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px)}
 ol{margin:0;padding:0;list-style:none;counter-reset:s;max-width:38em}
 ol li{counter-increment:s;position:relative;padding:0 0 18px 40px}
-ol li::before{content:counter(s);position:absolute;left:0;top:1px;width:26px;height:26px;border:1px solid var(--line);border-radius:50%;font:13px/24px "IBM Plex Sans","Helvetica Neue",sans-serif;text-align:center;color:var(--muted)}
+ol li::before{content:counter(s);position:absolute;left:0;top:1px;width:26px;height:26px;border:1px solid var(--line);border-radius:50%;font:12px/24px "IBM Plex Sans","Helvetica Neue",sans-serif;text-align:center;color:var(--muted)}
 p{margin:0 0 14px;max-width:38em}
-.muted{color:var(--muted)}
+.muted{color:var(--muted);font-size:12px}
 code{font:15px/1.5 "IBM Plex Mono",ui-monospace,monospace;background:var(--soft);padding:2px 6px;border-radius:4px;overflow-wrap:anywhere}
 .words{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin:0;padding:0;list-style:none}
 .words li{background:var(--bg);padding:16px 18px;display:flex;flex-direction:column;gap:4px}
 .words .w{overflow-wrap:anywhere;font:500 20px/1.2 "IBM Plex Sans","Helvetica Neue",sans-serif}
-.words .h{font:15px/1.4 "IBM Plex Mono",ui-monospace,monospace;color:var(--muted)}
+.words .h{font:12px/1.4 "IBM Plex Mono",ui-monospace,monospace;color:var(--muted)}
 .words .h b{color:var(--ink);font-weight:500}
 footer{border-top:1px solid var(--line)}
-footer .wrap{padding-block:32px;font-size:14px;color:var(--muted)}
+footer .wrap{padding-block:32px;font-size:12px;color:var(--muted)}
 footer p{max-width:none;margin:0 0 6px}
 @media(max-width:720px){.hero{grid-template-columns:minmax(0,1fr)}.cols{grid-template-columns:minmax(0,1fr)}.words{grid-template-columns:minmax(0,1fr)}}
 @media(prefers-reduced-motion:reduce){.btn{transition:none}}
@@ -78,7 +80,7 @@ footer p{max-width:none;margin:0 0 6px}
 <div class="wrap hero">
   <div>
     <h1>Íslensk orðskipting fyrir InDesign</h1>
-    <p class="lead">Íslenskar orðskiptireglur fyrir Hunspell í Adobe InDesign 2020–2027. Pakkinn stillir líka íslenskar gæsalappir og fylgir með skrifta sem lagar eldri skjöl.</p>
+    <p class="lead">Íslenskar orðskiptireglur fyrir Hunspell í Adobe InDesign 2020–2027 ásamt stillingum.</p>
     <p class="meta">Útgáfa 1.8 · Mac · Apple Silicon og Intel · 481 KB</p>
     <div class="btns">
     <a class="btn" href="Islensk-ordskipting-InDesign-1.8.pkg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>Sækja uppsetningu</a>
@@ -87,12 +89,11 @@ footer p{max-width:none;margin:0 0 6px}
   </div>
   <figure class="fig">
     <div class="frame" id="frame" aria-label="Textarammi. Dragðu hornið til að sjá orðin skiptast.">
-      <p class="ftext" lang="is">Lyk&shy;ill&shy;inn að Vaðla&shy;heið&shy;ar&shy;vega&shy;vinnu&shy;verk&shy;færa&shy;geymslu&shy;skúrnum týnd&shy;ist í maðk&shy;veið&shy;inni, en sjó&shy;birt&shy;ings&shy;veiði&shy;mað&shy;ur&shy;inn fann hann loks&shy;ins í þæg&shy;inda&shy;ramm&shy;anum.</p>
+      <p class="ftext" id="ftext" lang="is" data-text="Þegar maðka­veiði­maður mætti í stræt­is­vagn­inn með sjó­birt­ing í nest­is­boxi spurði stræt­is­vagna­bíl­stjór­inn hvort skrán­ing­ar­skylda gilti um við­líka far­þega, en veiði­mað­ur­inn sagð­ist vera að hjálpa sjó­birt­ingnum út úr þæg­inda­ramm­anum. „Hann heitir Hængur og er með mán­að­ar­kort.“">Þegar maðkaveiðimaður mætti í strætisvagninn með sjóbirting í nestisboxi spurði strætisvagnabílstjórinn hvort skráningarskylda gilti um viðlíka farþega, en veiðimaðurinn sagðist vera að hjálpa sjóbirtingnum út úr þægindarammanum. &bdquo;Hann heitir Hængur og er með mánaðarkort.&ldquo;</p>
       <span class="hd tl" aria-hidden="true"></span><span class="hd tr" aria-hidden="true"></span><span class="hd bl" aria-hidden="true"></span>
       <button class="hd br" id="grip" type="button" aria-label="Breidd rammans. Notaðu örvatakka til að breyta."></button>
       <button class="hd mr" id="grip2" type="button" aria-hidden="true" tabindex="-1"></button>
     </div>
-    <figcaption class="cap">Dragðu hornið og sjáðu orðin skiptast</figcaption>
   </figure>
 </div>
 
@@ -171,6 +172,37 @@ footer p{max-width:none;margin:0 0 6px}
     }
   });
   addEventListener("resize", () => { if (f.offsetWidth > maxW()) setW(maxW()); });
+  const tx = document.getElementById("ftext");
+  const src = tx.dataset.text, cv = document.createElement("canvas").getContext("2d");
+  const esc = (t) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+  const layout = () => {
+    const cs = getComputedStyle(tx);
+    cv.font = cs.fontWeight + " " + cs.fontSize + " " + cs.fontFamily;
+    const W = tx.clientWidth + 0.5, fits = (t) => cv.measureText(t).width <= W;
+    const lines = []; let cur = "";
+    const words = src.split(" ");
+    for (let i = 0; i < words.length; i++) {
+      let parts = words[i].split("\u00ad");
+      while (parts.length) {
+        const whole = parts.join(""), cand = cur ? cur + " " + whole : whole;
+        if (fits(cand)) { cur = cand; parts = []; break; }
+        let k = parts.length - 1, done = false;
+        for (; k >= 1; k--) {
+          const pre = parts.slice(0, k).join("");
+          const c2 = cur ? cur + " " + pre : pre;
+          if (fits(c2 + "-")) { lines.push(esc(c2) + '<span class="hy">-</span>'); cur = ""; parts = parts.slice(k); done = true; break; }
+        }
+        if (done) continue;
+        if (cur) { lines.push(esc(cur)); cur = ""; continue; }
+        cur = whole; parts = []; break;
+      }
+    }
+    if (cur) lines.push(esc(cur));
+    tx.innerHTML = lines.map((l) => '<span class="ln">' + l + "</span>").join("");
+  };
+  new ResizeObserver(layout).observe(tx);
+  if (document.fonts) document.fonts.ready.then(layout);
+  layout();
 }
 </script>
 </body>
