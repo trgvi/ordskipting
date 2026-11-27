@@ -500,6 +500,16 @@ Ber ábyrgð á:
 - Útgáfu og dreifingu.
 - Ákvörðunum um breytingar á verkefninu.
 
+### Samskipti í gegnum GitHub
+
+GitHub er sameiginlegt vinnusvæði. Ekki þarf að líma skrár á milli spjalla.
+
+1. ChatGPT setur lotu í `lotur/NNN-heiti.tsv` á grein `lota-NNN` og opnar pull request á `main`. Það breytir engu öðru, hvorki `gogn/`, `tools/` né `Makefile`.
+2. Tryggvi segir Claude: „lota NNN er komin“.
+3. Claude sækir greinina, keyrir yfirferðina, skrifar `lotur/NNN-heiti-yfirferd.tsv` og setur niðurstöðuna sem athugasemd í pull requestið.
+4. ChatGPT les athugasemdina og svarar þar, eða gerir nýja útgáfu af lotunni á sömu grein.
+5. Þegar lotan er samþykkt sameinar Claude hana í `main` og gerir mynsturbreytingar í sérstakri grein með mælingum.
+
 ### Óháð yfirferð
 
 ChatGPT og Claude skulu eftir því sem hægt er greina orð óháð hvort öðru áður en niðurstöður eru bornar saman.
