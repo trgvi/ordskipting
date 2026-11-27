@@ -52,5 +52,5 @@ for t,ws in kaflar:
 texti=[l.strip() for l in open(H+'/texti.txt',encoding='utf-8') if l.strip()]
 data={'kaflar':kaflar,'texti':texti,'vaent':rows}
 js=open(H+'/sniðmát.jsx',encoding='utf-8').read().replace('/*GÖGN*/null',json.dumps(data,ensure_ascii=False))
-open(H+'/Prófunarskjal orðskiptingar.jsx','w',encoding='utf-8').write(js)
+open(H+'/profunarskjal.jsx','w',encoding='utf-8').write(js)
 n=sum(len(ws) for _,ws in kaflar);print(len(kaflar),'kaflar,',n,'orð')

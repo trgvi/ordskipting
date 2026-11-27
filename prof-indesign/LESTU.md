@@ -1,6 +1,6 @@
 # Prófunarskjal í InDesign
 
-`Prófunarskjal orðskiptingar.jsx` býr til InDesign-skjal með öllum prófunarorðunum og vistar það á skjáborðinu sem `Prófunarskjal orðskiptingar.indd`.
+`profunarskjal.jsx` býr til InDesign-skjal með öllum prófunarorðunum og vistar það á skjáborðinu sem `Prófunarskjal orðskiptingar.indd`.
 
 - Orð í sex mjóum römmum (16–43 mm), 12 orð á síðu, svo InDesign skipti þeim á sem flestum stöðum.
 - Samfelldur texti í þremur, tveimur og einum dálki, jafnaður.
@@ -9,7 +9,7 @@
 
 Keyrsla (InDesign opið):
 ```
-osascript -e 'tell application id "com.adobe.InDesign" to do script (POSIX file "/SLÓÐ/Prófunarskjal orðskiptingar.jsx") language javascript'
+osascript -e 'tell application id "com.adobe.InDesign" to do script (POSIX file "/SLÓÐ/profunarskjal.jsx") language javascript'
 ```
 eða setja skriftuna í Scripts-panelinn og tvísmella.
 
