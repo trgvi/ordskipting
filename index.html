@@ -41,11 +41,16 @@ h2{font-size:26px;line-height:1.15;margin:0 0 16px}
 .btns{display:flex;flex-wrap:wrap;gap:12px}
 .btn.out{background:none;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
 .btn.out:hover{opacity:1;background:var(--soft)}
-.frame{position:relative;justify-self:center;width:min(100%,270px);border:1px solid var(--ink);padding:18px 20px 26px;font:500 29px/1.22 "IBM Plex Sans","Helvetica Neue",sans-serif;letter-spacing:-.015em}
-.frame::before,.frame::after{content:"";position:absolute;width:7px;height:7px;background:var(--bg);border:1px solid var(--ink)}
-.frame::before{top:-4px;left:-4px}.frame::after{bottom:-4px;right:-4px}
-.frame p{margin:0}.frame i{font-style:normal;color:var(--ink)}
-.cap{font:13px/1.4 "IBM Plex Sans","Helvetica Neue",sans-serif;color:var(--muted);margin-top:14px;text-align:center}
+.frame{--fb:#5aa9ff;position:relative;width:270px;max-width:100%;border:1px solid var(--fb);padding:16px 18px 22px;font:500 29px/1.22 "IBM Plex Sans","Helvetica Neue",sans-serif;letter-spacing:-.015em;touch-action:none}
+:root.is-dark .frame{--fb:#7dbbff}
+.ftext{margin:0;hyphens:manual;-webkit-hyphens:manual;overflow-wrap:normal;word-break:normal}
+.hd{position:absolute;width:9px;height:9px;padding:0;background:var(--bg);border:1px solid var(--fb);border-radius:0}
+.tl{top:-5px;left:-5px}.tr{top:-5px;right:-5px}.bl{bottom:-5px;left:-5px}
+.br{bottom:-6px;right:-6px;width:12px;height:12px;background:var(--fb);cursor:ew-resize}
+.mr{top:50%;right:-5px;margin-top:-5px;cursor:ew-resize}
+.br:focus-visible{outline:2px solid var(--fb);outline-offset:3px}
+.fig{justify-self:center;width:100%;max-width:420px;margin:0}
+.cap{font:13px/1.4 "IBM Plex Sans","Helvetica Neue",sans-serif;color:var(--muted);margin-top:16px}
 section{border-top:1px solid var(--line);padding-block:clamp(40px,6vw,64px)}
 .cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px)}
 ol{margin:0;padding:0;list-style:none;counter-reset:s;max-width:38em}
@@ -62,7 +67,7 @@ code{font:15px/1.5 "IBM Plex Mono",ui-monospace,monospace;background:var(--soft)
 footer{border-top:1px solid var(--line)}
 footer .wrap{padding-block:32px;font-size:14px;color:var(--muted)}
 footer p{max-width:none;margin:0 0 6px}
-@media(max-width:720px){.hero{grid-template-columns:minmax(0,1fr)}.frame{justify-self:start}.cols{grid-template-columns:minmax(0,1fr)}.words{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:720px){.hero{grid-template-columns:minmax(0,1fr)}.cols{grid-template-columns:minmax(0,1fr)}.words{grid-template-columns:minmax(0,1fr)}}
 @media(prefers-reduced-motion:reduce){.btn{transition:none}}
 </style>
 </head>
@@ -80,17 +85,14 @@ footer p{max-width:none;margin:0 0 6px}
     <a class="btn out" href="Fjarlaegja-islenska-ordskiptingu.pkg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>Fjarlægja</a>
     </div>
   </div>
-  <figure style="margin:0">
-    <div class="frame" aria-label="Textarammi þar sem orð skiptast rétt milli lína">
-      <p>Í maðkveið<i>-</i></p>
-      <p>inni og vor<i>-</i></p>
-      <p>veiðinni sást</p>
-      <p>sjóbirting<i>-</i></p>
-      <p>urinn betur</p>
-      <p>en í þæginda<i>-</i></p>
-      <p>rammanum.</p>
+  <figure class="fig">
+    <div class="frame" id="frame" aria-label="Textarammi. Dragðu hornið til að sjá orðin skiptast.">
+      <p class="ftext" lang="is">Lyk&shy;ill&shy;inn að Vaðla&shy;heið&shy;ar&shy;vega&shy;vinnu&shy;verk&shy;færa&shy;geymslu&shy;skúrnum týnd&shy;ist í maðk&shy;veið&shy;inni, en sjó&shy;birt&shy;ings&shy;veiði&shy;mað&shy;ur&shy;inn fann hann loks&shy;ins í þæg&shy;inda&shy;ramm&shy;anum.</p>
+      <span class="hd tl" aria-hidden="true"></span><span class="hd tr" aria-hidden="true"></span><span class="hd bl" aria-hidden="true"></span>
+      <button class="hd br" id="grip" type="button" aria-label="Breidd rammans. Notaðu örvatakka til að breyta."></button>
+      <button class="hd mr" id="grip2" type="button" aria-hidden="true" tabindex="-1"></button>
     </div>
-    <figcaption class="cap">InDesign 2027, Hunspell, íslenska</figcaption>
+    <figcaption class="cap">Dragðu hornið og sjáðu orðin skiptast</figcaption>
   </figure>
 </div>
 
@@ -144,6 +146,31 @@ footer p{max-width:none;margin:0 0 6px}
     sync();
     try { localStorage.setItem("utlit", next); } catch (e) {}
   });
+}
+</script>
+<script>
+{
+  const f = document.getElementById("frame"), fig = f.parentElement;
+  const maxW = () => fig.clientWidth;
+  const setW = (w) => { f.style.width = Math.round(Math.max(120, Math.min(maxW(), w))) + "px"; };
+  for (const g of [document.getElementById("grip"), document.getElementById("grip2")]) {
+    g.addEventListener("pointerdown", (e) => {
+      e.preventDefault();
+      g.setPointerCapture(e.pointerId);
+      const x0 = e.clientX, w0 = f.offsetWidth;
+      const move = (ev) => setW(w0 + ev.clientX - x0);
+      const up = () => { g.removeEventListener("pointermove", move); g.removeEventListener("pointerup", up); };
+      g.addEventListener("pointermove", move);
+      g.addEventListener("pointerup", up);
+    });
+  }
+  document.getElementById("grip").addEventListener("keydown", (e) => {
+    if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+      e.preventDefault();
+      setW(f.offsetWidth + (e.key === "ArrowRight" ? 12 : -12));
+    }
+  });
+  addEventListener("resize", () => { if (f.offsetWidth > maxW()) setW(maxW()); });
 }
 </script>
 </body>
