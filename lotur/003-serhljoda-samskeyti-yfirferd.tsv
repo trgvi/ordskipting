@@ -1,0 +1,151 @@
+lína	orð	vél	flokkar	athugasemd
+2	fréttasafn	frétta-safn	NÝTT,SAMHLJÓÐA	
+3	gagnainnviðir	gagna-inn-viðir	NÝTT,SAMHLJÓÐA	
+4	gagnaskilgreiningar	gagna-skil-grein-ingar	NÝTT,SAMHLJÓÐA	
+5	gagnasnið	gagna-snið	NÝTT,SAMHLJÓÐA	
+6	gagnastefna	gagna-stefna	NÝTT,SAMHLJÓÐA	
+7	gagnastjóri	gagna-stjóri	NÝTT,SAMHLJÓÐA	
+8	gagnastýring	gagna-stýr-ing	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+9	gæðastaða	gæða-staða	NÝTT,SAMHLJÓÐA	
+10	kóðasetning	kóða-setn-ing	NÝTT,SAMHLJÓÐA	
+11	kóðaskipti	kóða-skipti	NÝTT,SAMHLJÓÐA	
+12	kóðasmíð	kóða-smíð	NÝTT,SAMHLJÓÐA	
+13	tölvuorðasafnið	tölvu-orða-safnið	NÝTT,SAMHLJÓÐA	
+14	tölvuárás	tölvu-á-rás	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+15	tölvuöryggi	tölvu-ör-yggi	NÝTT,SAMHLJÓÐA	
+16	þjónustuskilmála	þjón-ustu-skil-mála	NÝTT,SAMHLJÓÐA	
+17	gagnaskrá	gagna-skrá	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gagna-skrá
+18	gæðastjórnun	gæða-stjórnun	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gæða-stjórn-un
+19	tölvuskrá	tölvu-skrá	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: tölvu-skrá
+20	almannastefnu	al-manna-stefnu	NÝTT,SAMHLJÓÐA	
+21	atvinnusamning	at-vinnu-samn-ing	NÝTT,SAMHLJÓÐA	
+22	atvinnusöngkona	at-vinnu-söng-kona	NÝTT,SAMHLJÓÐA	
+23	atvinnusöngvari	at-vinnu-söngv-ari	NÝTT,SAMHLJÓÐA	
+24	atvinnuáhætta	at-vinnu-á-hætta	NÝTT,SAMHLJÓÐA	
+25	barnasögur	barna-sögur	NÝTT,SAMHLJÓÐA	
+26	barnaumönnun	barnaum-önnun	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+27	bílaeftirför	bíla-eft-ir-för	NÝTT,SAMHLJÓÐA	
+28	bílaskráningin	bíla-skrán-ingin	NÝTT,SAMHLJÓÐA	
+29	bílastæðahúsi	bíla-stæða-húsi	NÝTT,SAMHLJÓÐA	
+30	bílasíma	bíla-síma	NÝTT,SAMHLJÓÐA	
+31	bílaútvörp	bíla-út-vörp	NÝTT,SAMHLJÓÐA	
+32	efnasambands	efna-sam-bands	NÝTT,SAMHLJÓÐA	
+33	efnaskiptamælingu	efna-skipta-mæl-ingu	NÝTT,SAMHLJÓÐA	
+34	efnaskiptaröskun	efna-skiptaröskun	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+35	efnaúrgang	efna-úr-gang	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+36	einkaeintak	einka-ein-tak	NÝTT,SAMHLJÓÐA	
+37	einkainngang	einka-inn-gang	NÝTT,SAMHLJÓÐA	
+38	einkasafnari	einka-safn-ari	NÝTT,SAMHLJÓÐA	
+39	einkasamning	einka-samn-ing	NÝTT,SAMHLJÓÐA	
+40	einkasendiferðir	einka-sendi-ferðir	NÝTT,SAMHLJÓÐA	
+41	einkaspjall	einka-spjall	NÝTT,SAMHLJÓÐA	
+42	einkaálit	einka-álit	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+43	einkaöryggi	einka-ör-yggi	NÝTT,SAMHLJÓÐA	
+44	einkaöryggisdeild	einka-ör-ygg-is-deild	NÝTT,SAMHLJÓÐA	
+45	einkaöryggissveitar	einka-ör-ygg-is-sveitar	NÝTT,SAMHLJÓÐA	
+46	einkaöryggisverktakar	einka-ör-ygg-is-verk-takar	NÝTT,SAMHLJÓÐA	
+47	eplainnflutningur	epla-inn-flutn-ingur	NÝTT,SAMHLJÓÐA	
+48	ferðaáætlunum	ferða-áætl-unum	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+49	fjölskylduafslátt	fjöl-skyldu-af-slátt	NÝTT,SAMHLJÓÐA	
+50	fjölskylduarfur	fjöl-skyldu-arfur	NÝTT,SAMHLJÓÐA	
+51	fjölskyldueignir	fjöl-skyldu-eignir	NÝTT,SAMHLJÓÐA	
+52	fjölskyldusjálfsvíg	fjöl-skyldu-sjálfs-víg	NÝTT,SAMHLJÓÐA	
+53	fjölskylduskemmtigarða	fjöl-skyldu-skemmti-garða	NÝTT,SAMHLJÓÐA	
+54	fjölskylduáætlun	fjöl-skyldu-áætlun	NÝTT,SAMHLJÓÐA	
+55	fréttasendingu	frétta-send-ingu	NÝTT,SAMHLJÓÐA	
+56	fréttastefnan	frétta-stefnan	NÝTT,SAMHLJÓÐA	
+57	fréttastjórastaðan	frétta-stjóra-staðan	NÝTT,SAMHLJÓÐA	
+58	fréttastöð	frétta-stöð	NÝTT,SAMHLJÓÐA	
+59	fréttaöflun	frétta-öflun	NÝTT,SAMHLJÓÐA	
+60	fréttaútsending	frétta-út-send-ing	NÝTT,SAMHLJÓÐA	
+61	fréttaútsendingarrásir	frétta-út-send-ing-ar-rásir	NÝTT,SAMHLJÓÐA	
+62	fréttaútvarp	frétta-út-varp	NÝTT,SAMHLJÓÐA	
+63	fyrirtækjasamsteypu	fyr-ir-tækja-sam-steypu	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+64	gagnainnslátt	gagna-inn-slátt	NÝTT,SAMHLJÓÐA	
+65	gagnaskráningartækið	gagna-skrán-ing-ar-tækið	NÝTT,SAMHLJÓÐA	
+66	gagnastjórnunar	gagna-stjórn-unar	NÝTT,SAMHLJÓÐA	
+67	gervisteinn	gervi-steinn	NÝTT,SAMHLJÓÐA	
+68	gerviútlimur	gervi-út-limur	NÝTT,SAMHLJÓÐA	
+69	heilaefni	heila-efni	NÝTT,SAMHLJÓÐA	
+70	heilastofn	heila-stofn	NÝTT,SAMHLJÓÐA	
+71	heilasýni	heila-sýni	NÝTT,SAMHLJÓÐA	
+72	heimasímanúmer	heima-síma-númer	NÝTT,SAMHLJÓÐA	
+73	heimasími	heima-sími	NÝTT,SAMHLJÓÐA	
+74	hnetusmjör	hnetu-smjör	NÝTT,SAMHLJÓÐA	
+75	hnetusmjörsamloka	hnetu-smjör-sam-loka	NÝTT,SAMHLJÓÐA	
+76	hnetusmjörskaka	hnetu-smjör-skaka	NÝTT,SAMHLJÓÐA	
+77	hundaeftirlit	hunda-eft-ir-lit	NÝTT,SAMHLJÓÐA	
+78	hundaslagsmál	hunda-slags-mál	NÝTT,SAMHLJÓÐA	
+79	hættuefnaeftirliti	hættu-efna-eft-ir-liti	NÝTT,SAMHLJÓÐA	
+80	jólainnkaupin	jóla-inn-kaupin	NÝTT,SAMHLJÓÐA	
+81	jólaævintýri	jóla-æv-in-týri	NÝTT,SAMHLJÓÐA	
+82	kirkjustarfi	kirkju-starfi	NÝTT,SAMHLJÓÐA	
+83	kvennasnyrtinguna	kvenna-snyrt-ing-una	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+84	kvikmyndasamningur	kvik-mynda-samn-ingur	NÝTT,SAMHLJÓÐA	
+85	kvikmyndasamsteypunnar	kvik-mynda-sam-steyp-unnar	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+86	kvikmyndaskóla	kvik-mynda-skóla	NÝTT,SAMHLJÓÐA	
+87	launasamning	launa-samn-ing	NÝTT,SAMHLJÓÐA	
+88	launaumslaginu	launa-um-slag-inu	NÝTT,SAMHLJÓÐA	
+89	leikjaeining	leikja-ein-ing	NÝTT,SAMHLJÓÐA	
+90	leikjastjóri	leikja-stjóri	NÝTT,SAMHLJÓÐA	
+91	leikjasvæðið	leikja-svæðið	NÝTT,SAMHLJÓÐA	
+92	listaskóli	lista-skóli	NÝTT,SAMHLJÓÐA	
+93	listasögudeild	lista-sögu-deild	NÝTT,SAMHLJÓÐA	
+94	lyfjaofnæmi	lyfja-of-næmi	NÝTT,SAMHLJÓÐA	
+95	lyfjasendingu	lyfja-send-ingu	NÝTT,SAMHLJÓÐA	
+96	lyfjaskammt	lyfja-skammt	NÝTT,SAMHLJÓÐA	
+97	læknastöð	lækna-stöð	NÝTT,SAMHLJÓÐA	
+98	matvælasendingar	mat-væla-send-ingar	NÝTT,SAMHLJÓÐA	
+99	menntaskólaaldri	mennta-skóla-aldri	NÝTT,SAMHLJÓÐA	
+100	myndavélasafn	mynda-véla-safn	NÝTT,SAMHLJÓÐA	
+101	myndbandaskrá	mynd-banda-skrá	NÝTT,SAMHLJÓÐA	
+102	olíuinnflutning	ol-íu-inn-flutn-ing	NÝTT,SAMHLJÓÐA	
+103	olíusamninga	ol-íu-samn-inga	NÝTT,SAMHLJÓÐA	
+104	orkuaukning	orku-aukn-ing	NÝTT,SAMHLJÓÐA	
+105	símasvik	síma-svik	NÝTT,SAMHLJÓÐA	
+106	tölvuinnbrot	tölvu-inn-brot	NÝTT,SAMHLJÓÐA	
+107	varaáætlun	vara-áætlun	NÝTT,SAMHLJÓÐA	
+108	vísindaskáldsaga	vís-inda-skáld-saga	NÝTT,SAMHLJÓÐA	
+109	almannaeign	al-manna-eign	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: al-manna-eign
+110	almannaöryggis	al-manna-ör-yggis	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: al-manna-ör-ygg-is
+111	barnaefni	barna-efni	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: barna-efni
+112	barnaskóli	barna-skóli	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: barna-skóli
+113	barnaspítali	barna-spít-ali	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: barna-spít-ali
+114	byggðastefnu	byggða-stefnu	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: byggða-stefnu
+115	bílasala	bíla-sala	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: bíla-sala
+116	bílastæði	bíla-stæði	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: bíla-stæði
+117	bókasafn	bóka-safn	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: bóka-safn
+118	bókasafnsvörður	bóka-safns-vörður	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: bóka-safns-vörð-ur
+119	efnaskipti	efna-skipti	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: efna-skipti
+120	einkaeign	einka-eign	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: einka-eign
+121	einkasafn	einka-safn	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: einka-safn
+122	einkaspítala	einka-spít-ala	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: einka-spít-ala
+123	einkastarfsemi	einka-starf-semi	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: einka-starf-semi
+124	einkastofnun	einka-stofnun	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: einka-stofn-un
+125	evrópusambandinu	evr-ópu-sam-band-inu	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: evr-ópu-sam-band-inu
+126	fjölskyldusaga	fjöl-skyldu-saga	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: fjöl-skyldu-saga
+127	fjölskylduskemmtun	fjöl-skyldu-skemmtun	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: fjöl-skyldu-skemmt-un
+128	fréttaefni	frétta-efni	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: frétta-efni
+129	fréttastofa	frétta-stofa	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: frétta-stofa
+130	fyrirtækjaskrár	fyr-ir-tækja-skrár	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: fyr-ir-tækja-skrár
+131	gagnasafn	gagna-safn	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gagna-safn
+132	gagnasendinga	gagna-send-inga	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gagna-send-inga
+133	gagnaöflun	gagna-öflun	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gagna-öfl-un
+134	gerviefni	gervi-efni	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gervi-efni
+135	heilaskaða	heila-skaða	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: heila-skaða
+136	heilaskemmdir	heila-skemmdir	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: heila-skemmd-ir
+137	heilastarfsemi	heila-starf-semi	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: heila-starf-semi
+138	heilaæxli	heila-æxli	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: heila-æxli
+139	heimasíða	heima-síða	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: heima-síða
+140	hjartaslag	hjarta-slag	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: hjarta-slag
+141	hættuspil	hættu-spil	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: hættu-spil
+142	hættusvæði	hættu-svæði	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: hættu-svæði
+143	kvikmyndaeftirlitið	kvik-mynda-eft-ir-litið	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: kvik-mynda-eft-ir-lit-ið
+144	kvikmyndasafn	kvik-mynda-safn	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: kvik-mynda-safn
+145	launaskrá	launa-skrá	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: launa-skrá
+146	listasafn	lista-safn	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: lista-safn
+147	listasögu	lista-sögu	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: lista-sögu
+148	loftferðaeftirlit	loft-ferða-eft-ir-lit	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: loft-ferða-eft-ir-lit
+149	lyfjaefni	lyfja-efni	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: lyfja-efni
+150	lyfjaeftirlitið	lyfja-eft-ir-litið	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: lyfja-eft-ir-lit-ið
+151	lyfjasala	lyfja-sala	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: lyfja-sala
