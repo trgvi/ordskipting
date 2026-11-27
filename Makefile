@@ -1,5 +1,5 @@
 # Íslensk orðskipting — endurbygging og prófanir
-# make build   byggir smidi/hyph_is_IS.dic og ber saman við utgafa/hyph_is_IS.dic
+# make build   byggir smidi/hyph_is_IS-2.dic (tveggja þrepa) og ber saman við utgafa/hyph_is_IS.dic
 # make test    þjálfar samanburðarútgáfu án prófunarfjölskyldna og mælir hana
 # make yfirfara  yfirfer tillogur.tsv
 # make all     build + test
@@ -42,7 +42,8 @@ $(B)/samanburdur.dic: $(B)/thjalfun-samanburdur.tex $(B)/undantekningar-samanbur
 	$(PY) tools/pat2dic.py $< $(B)/samanburdur-hrátt.dic $(B)/undantekningar-samanburdur.txt
 	$(PY) tools/subst.py $(B)/samanburdur-hrátt.dic $@ > /dev/null
 
-build: $(B)/hyph_is_IS.dic
+# Útgáfa 1.9+: útgefna skráin er tveggja þrepa (hyph_is_IS-2.dic)
+build: $(B)/hyph_is_IS-2.dic
 	@cmp -s $< utgafa/hyph_is_IS.dic && echo "build: eins og útgefin skrá (utgafa/hyph_is_IS.dic)" || echo "build: FRÁBRUGÐIN útgefinni skrá"
 
 test: $(B)/samanburdur.dic

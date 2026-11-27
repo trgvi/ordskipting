@@ -21,12 +21,12 @@ Grundvallarreglur:
 
 - Vefur: https://ordskipting.vercel.app
 - GitHub: https://github.com/trgvi/ordskipting
-- Núverandi útgáfa: 1.8
+- Núverandi útgáfa: 1.9 (tveggja þrepa orðskipting)
 - Orðskiptivél: Hunspell/libhyphen
 - Mynstur: Liang/TeX
 - Þjálfunartól: patgen
 - Úttaksskrá: `hyph_is_IS.dic`
-- Núverandi stærð úttaksskrár: um 1,9 MB
+- Núverandi stærð úttaksskrár: um 5,7 MB
 
 Nánari tæknileg lýsing er í `ORDSKIPTING.md`.
 
@@ -411,6 +411,19 @@ Uppgefin viðmið útgáfu 1.8:
 | Lokapróf | 4.453 | 93,9% | 98,31% | 96,79% | 112 | 216 | 33 |
 
 Mælt á samanburðarútgáfu sem er þjálfuð með sömu aðferð og 1.8 en án prófunarfjölskyldnanna. Samhljóðabrot hér eru brot sem vélin myndar í orðum úr gögnum Árnastofnunar, ekki í raunverulegum texta.
+
+### Útgáfa 1.9: tveggja þrepa orðskipting (27.11.2026)
+
+Fyrra þrep finnur samskeyti, seinna þrep skiptir innan orðhluta með minnst tvo stafi (`COMPOUNDLEFTHYPHENMIN 2`, `COMPOUNDRIGHTHYPHENMIN 2`). Staðfest í InDesign 2027. Sjá `tilraunir/tveggja-threpa/NIDURSTODUR.md`.
+
+| Lokapróf (samanburðarútgáfur) | 1.8 | 1.9 |
+|---|---:|---:|
+| Heil orð rétt | 93,89% | 94,18% |
+| Rangir skiptistaðir | 112 | 109 |
+| Vantar | 216 | 221 |
+| Orð með einstafsbút | 42 | 28 |
+
+Árnastofnun og villur úr textum: 100% í báðum.
 
 ### Mælingar fyrir hverja útgáfu
 
