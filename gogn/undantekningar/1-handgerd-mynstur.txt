@@ -93,3 +93,7 @@ y9k8óð
 ö9k8óð
 ar9k8óð
 s9k8óð
+% árás inni í samsetningu: aldrei á-rás (Árnastofnun: lík-ams-árás)
+á8rás
+% hjá-rás er sjálfstæð samsetning (hjá + rás)
+hjá9rás
