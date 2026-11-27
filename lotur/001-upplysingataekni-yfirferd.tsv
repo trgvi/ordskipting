@@ -1,11 +1,11 @@
 lína	orð	vél	flokkar	athugasemd
 2	gervigreind	gervi-greind	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gervi-greind
-3	gervigreindartækni	gervi-greind-ar-tækni	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+3	gervigreindartækni	gervi-greind-ar-tækni	NÝTT,SAMHLJÓÐA	
 4	spjallmennið	spjall-mennið	NÝTT,SAMHLJÓÐA	
 5	mállíkan	mál-líkan	NÝTT,SAMHLJÓÐA	
-6	myndgerðarforritin	mynd-gerð-ar-for-ritin	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+6	myndgerðarforritin	mynd-gerð-ar-for-ritin	NÝTT,SAMHLJÓÐA	
 7	vélþýðing	vél-þýð-ing	NÝTT,SAMHLJÓÐA	
-8	spurningasvörun	spurn-inga-svörun	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+8	spurningasvörun	spurn-inga-svörun	NÝTT,SAMHLJÓÐA	
 9	talgreining	tal-grein-ing	NÝTT,SAMHLJÓÐA	
 10	talgerving	tal-gerv-ing	NÝTT,SAMHLJÓÐA	
 11	máltækni	mál-tækni	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: mál-tækni
@@ -14,88 +14,88 @@ lína	orð	vél	flokkar	athugasemd
 14	talgervill	tal-gerv-ill	NÝTT,SAMHLJÓÐA	
 15	hljóðgreiningu	hljóð-grein-ingu	NÝTT,SAMHLJÓÐA	
 16	orðgreiningu	orð-grein-ingu	NÝTT,SAMHLJÓÐA	
-17	setningagreiningu	setn-inga-grein-ingu	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-18	merkingargreiningu	merk-ing-ar-grein-ingu	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+17	setningagreiningu	setn-inga-grein-ingu	NÝTT,SAMHLJÓÐA	
+18	merkingargreiningu	merk-ing-ar-grein-ingu	NÝTT,SAMHLJÓÐA	
 19	alsjálfvirkt	al-sjálf-virkt	NÝTT,SAMHLJÓÐA	
 20	gagnagnótt	gagna-gnótt	NÝTT,SAMHLJÓÐA	
-21	gríðargögn	gríð-ar-gögn	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+21	gríðargögn	gríð-ar-gögn	NÝTT,SAMHLJÓÐA	
 22	gagnavísindi	gagna-vís-indi	NÝTT,SAMHLJÓÐA	
 23	djúpnám	djúp-nám	NÝTT,SAMHLJÓÐA	
-24	jaðarvinnsla	jað-ar-vinnsla	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-25	sköpunargreind	sköp-un-ar-greind	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+24	jaðarvinnsla	jað-ar-vinnsla	NÝTT,SAMHLJÓÐA	
+25	sköpunargreind	sköp-un-ar-greind	NÝTT,SAMHLJÓÐA	
 26	spunagreind	spuna-greind	NÝTT,SAMHLJÓÐA	
 27	vélnám	vél-nám	NÝTT,SAMHLJÓÐA	
 28	málgreining	mál-grein-ing	NÝTT,SAMHLJÓÐA	
 29	málvinnsla	mál-vinnsla	NÝTT,SAMHLJÓÐA	
 30	breytilíkan	breyti-líkan	NÝTT,SAMHLJÓÐA	
 31	forþjálfað	for-þjálfað	NÝTT,SAMHLJÓÐA	
-32	umkóðunarnet	um-kóð-un-ar-net	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-33	forsagnargreining	for-sagn-ar-grein-ing	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-34	viðjafarnám	við-jaf-ar-nám	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-35	yfirfærslunám	yf-ir-færslu-nám	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+32	umkóðunarnet	um-kóð-un-ar-net	NÝTT,SAMHLJÓÐA	
+33	forsagnargreining	for-sagn-ar-grein-ing	NÝTT,SAMHLJÓÐA	
+34	viðjafarnám	við-jaf-ar-nám	NÝTT,SAMHLJÓÐA	
+35	yfirfærslunám	yf-ir-færslu-nám	NÝTT,SAMHLJÓÐA	
 36	djúptauganet	djúptauga-net	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
-37	andlitsgreining	and-lits-grein-ing	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-38	andlitskennsli	and-lits-kennsli	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+37	andlitsgreining	and-lits-grein-ing	NÝTT,SAMHLJÓÐA	
+38	andlitskennsli	and-lits-kennsli	NÝTT,SAMHLJÓÐA	
 39	vafrakaka	vafra-kaka	NÝTT,SAMHLJÓÐA	
 40	gagnagíslataka	gagna-gíslataka	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
-41	hugbúnaðaráskrift	hug-bún-að-ar-á-skrift	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+41	hugbúnaðaráskrift	hug-bún-að-ar-á-skrift	NÝTT,SAMHLJÓÐA	
 42	sjálfkeyrandi	sjálf-keyr-andi	NÝTT,SAMHLJÓÐA	
-43	samfélagsmiðill	sam-fé-lags-mið-ill	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-44	streymisveita	streym-is-veita	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+43	samfélagsmiðill	sam-fé-lags-mið-ill	NÝTT,SAMHLJÓÐA	
+44	streymisveita	streym-is-veita	NÝTT,SAMHLJÓÐA	
 45	kennslubóti	kennslu-bóti	NÝTT,SAMHLJÓÐA	
-46	kóðunartag	kóð-un-ar-tag	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-47	gildissvið	gild-is-svið	FYRIRLIGGJANDI,ÓSAMMÁLA	í gögnum: gild-is-svið; vélin skiptir þar sem tillagan gerir það ekki
-48	leiðréttingarkóði	leið-rétt-ing-ar-k-óði	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-49	villugátarkóði	villugát-ar-k-óði	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki; tillagan skiptir þar sem vélin gerir það ekki
+46	kóðunartag	kóð-un-ar-tag	NÝTT,SAMHLJÓÐA	
+47	gildissvið	gild-is-svið	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gild-is-svið
+48	leiðréttingarkóði	leið-rétt-ing-ar-kóði	NÝTT,SAMHLJÓÐA	
+49	villugátarkóði	villugát-ar-kóði	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
 50	varalíkan	vara-líkan	NÝTT,SAMHLJÓÐA	
 51	fastakommusnið	fasta-kommu-snið	NÝTT,SAMHLJÓÐA	
 52	leikjabiðlari	leikja-biðlari	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
 53	mótherjanet	mót-herja-net	NÝTT,SAMHLJÓÐA	
-54	gildingarforritun	gild-ing-ar-for-ritun	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+54	gildingarforritun	gild-ing-ar-for-ritun	NÝTT,SAMHLJÓÐA	
 55	nettengireitur	net-tengi-reitur	NÝTT,SAMHLJÓÐA	
-56	upplýsingabotti	upp-lýs-inga-botti	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-57	upplýsingaheimt	upp-lýs-inga-heimt	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+56	upplýsingabotti	upp-lýs-inga-botti	NÝTT,SAMHLJÓÐA	
+57	upplýsingaheimt	upp-lýs-inga-heimt	NÝTT,SAMHLJÓÐA	
 58	skordýrabóti	skor-dýra-bóti	NÝTT,SAMHLJÓÐA	
-59	innsetningarvirki	inn-setn-ing-ar-virki	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+59	innsetningarvirki	inn-setn-ing-ar-virki	NÝTT,SAMHLJÓÐA	
 60	millikóðasmiður	milli-kóða-smiður	NÝTT,SAMHLJÓÐA	
 61	hlutanet	hluta-net	NÝTT,SAMHLJÓÐA	
 62	hlutanetstæki	hluta-netstæki	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
-63	hlutanetsmarkaður	hluta-nets-mark-aður	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-64	innbrotsgreiningarkerfi	inn-brots-grein-ing-ar-kerfi	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-65	þekkingarbotti	þekk-ing-ar-botti	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+63	hlutanetsmarkaður	hluta-nets-mark-aður	NÝTT,SAMHLJÓÐA	
+64	innbrotsgreiningarkerfi	inn-brots-grein-ing-ar-kerfi	NÝTT,SAMHLJÓÐA	
+65	þekkingarbotti	þekk-ing-ar-botti	NÝTT,SAMHLJÓÐA	
 66	risamállíkan	risa-mál-líkan	NÝTT,SAMHLJÓÐA	
 67	staðhýsitölva	stað-hýsi-tölva	NÝTT,SAMHLJÓÐA	
-68	sannvottunarkóði	sann-vott-un-ar-kóði	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-69	röskunargátarkóði	rösk-un-ar-gát-ar-k-óði	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+68	sannvottunarkóði	sann-vott-un-ar-kóði	NÝTT,SAMHLJÓÐA	
+69	röskunargátarkóði	rösk-un-ar-gát-ar-kóði	NÝTT,SAMHLJÓÐA	
 70	hlutvenslavörpun	hlut-vensla-vörpun	NÝTT,SAMHLJÓÐA	
-71	rekstrargreind	rekstr-ar-greind	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+71	rekstrargreind	rekstr-ar-greind	NÝTT,SAMHLJÓÐA	
 72	færibreytusnið	færi-breytu-snið	NÝTT,SAMHLJÓÐA	
-73	forsagnarkóðun	for-sagn-ar-kóðun	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+73	forsagnarkóðun	for-sagn-ar-kóðun	NÝTT,SAMHLJÓÐA	
 74	keyrslugreinir	keyrslu-greinir	NÝTT,SAMHLJÓÐA	
 75	skammtatölva	skammta-tölva	NÝTT,SAMHLJÓÐA	
-76	gíslatökuhugbúnaður	gísla-töku-hug-bún-aður	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-77	endurkvæmnisþáttari	end-ur-kvæmn-is-þátt-ari	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-78	skilgreiningarumhverfi	skil-grein-ing-ar-um-hverfi	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+76	gíslatökuhugbúnaður	gísla-töku-hug-bún-aður	NÝTT,SAMHLJÓÐA	
+77	endurkvæmnisþáttari	end-ur-kvæmn-is-þátt-ari	NÝTT,SAMHLJÓÐA	
+78	skilgreiningarumhverfi	skil-grein-ing-ar-um-hverfi	NÝTT,SAMHLJÓÐA	
 79	fjarhýsitölva	fjar-hýsi-tölva	NÝTT,SAMHLJÓÐA	
-80	breytingastjórnun	breyt-inga-stjórnun	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-81	róbótakerfi	rób-óta-kerfi	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-82	leitarvélabestun	leit-ar-véla-bestun	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-83	lyndisgreining	lynd-is-grein-ing	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+80	breytingastjórnun	breyt-inga-stjórnun	NÝTT,SAMHLJÓÐA	
+81	róbótakerfi	rób-óta-kerfi	NÝTT,SAMHLJÓÐA	
+82	leitarvélabestun	leit-ar-véla-bestun	NÝTT,SAMHLJÓÐA	
+83	lyndisgreining	lynd-is-grein-ing	NÝTT,SAMHLJÓÐA	
 84	frumkóðasmiður	frum-kóða-smiður	NÝTT,SAMHLJÓÐA	
-85	raunprófunarumhverfi	raun-próf-un-ar-um-hverfi	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+85	raunprófunarumhverfi	raun-próf-un-ar-um-hverfi	NÝTT,SAMHLJÓÐA	
 86	bandhlutakóðun	band-hluta-kóðun	NÝTT,SAMHLJÓÐA	
-87	róbótafjartækni	rób-óta-fjar-tækni	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+87	róbótafjartækni	rób-óta-fjar-tækni	NÝTT,SAMHLJÓÐA	
 88	útgáfustjórnun	út-gáfu-stjórnun	NÝTT,SAMHLJÓÐA	
-89	stuðforritun	stuð-for-ritun	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-90	hugbúnaðarþróun	hug-bún-að-ar-þróun	FYRIRLIGGJANDI,ÓSAMMÁLA	í gögnum: hug-bún-að-ar-þró-un; vélin skiptir þar sem tillagan gerir það ekki
-91	gervigreindartól	gervi-greind-ar-tól	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-92	þróunarteyma	þró-un-ar-teyma	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+89	stuðforritun	stuð-for-ritun	NÝTT,SAMHLJÓÐA	
+90	hugbúnaðarþróun	hug-bún-að-ar-þróun	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: hug-bún-að-ar-þró-un
+91	gervigreindartól	gervi-greind-ar-tól	NÝTT,SAMHLJÓÐA	
+92	þróunarteyma	þró-un-ar-teyma	NÝTT,SAMHLJÓÐA	
 93	gæðatryggingu	gæða-trygg-ingu	FYRIRLIGGJANDI,SAMHLJÓÐA	í gögnum: gæða-trygg-ingu
-94	skýjaþjónusta	skýja-þjón-usta	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
+94	skýjaþjónusta	skýja-þjón-usta	NÝTT,SAMHLJÓÐA	
 95	skýjalausna	skýja-lausna	NÝTT,SAMHLJÓÐA	
 96	tölvuinnviðum	tölvu-inn-viðum	NÝTT,SAMHLJÓÐA	
 97	gagnagreininga	gagna-grein-inga	NÝTT,SAMHLJÓÐA	
 98	gagnastýringu	gagna-stýr-ingu	NÝTT,SAMHLJÓÐA	
 99	gagnamiðlun	gagna-miðlun	NÝTT,SAMHLJÓÐA	
-100	skýjavinnsluþjónusta	skýja-vinnslu-þjón-usta	NÝTT,ÓSAMMÁLA	vélin skiptir þar sem tillagan gerir það ekki
-101	spillikóði	spillikóði	NÝTT,ÓSAMMÁLA	tillagan skiptir þar sem vélin gerir það ekki
+100	skýjavinnsluþjónusta	skýja-vinnslu-þjón-usta	NÝTT,SAMHLJÓÐA	
+101	spillikóði	spilli-kóði	NÝTT,SAMHLJÓÐA	
